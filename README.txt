@@ -1,3 +1,4 @@
+HEY
 This program allows the user to simulate what happens within a single-datapath
 processor in MIPS.
 
