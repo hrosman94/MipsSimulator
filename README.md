@@ -43,6 +43,7 @@ registers are displayed. The user may also view the results of the instructions
 and any jumps made in the output.txt file.
 
 NOTE:
+
     Jumps may not exceed the size of the output file. For this
     reason, only backward jumps may be performed. Otherwise, the user is
     notified with the error: "JUMP NOT FOUND..."
