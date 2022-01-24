@@ -108,9 +108,11 @@ void inFetchALU(vector <string> instructions, int &amt_instructions) {
   return;
 }
 void RF_read(string regs[], string operation, int &i, int &first) {
-    if ((regs[i] == "" || i >= 3) && (operation == "add" || operation == "sub" ||               operation == "mul" || operation == "and" || operation == "or")) {
+    if ((regs[i] == "" || i >= 3) && (operation == "add" || operation == "sub" ||               
+         operation == "mul" || operation == "and" || operation == "or")) {
       return;
-    } else if ((regs[i] == "" || i >= 2) && ((operation == "sll") || operation == "srl" ||             operation == "addi")) {
+    } else if ((regs[i] == "" || i >= 2) && ((operation == "sll") || operation == "srl" ||             
+                operation == "addi")) {
       ALU[i] = stoi(regs[i]);
       return;
     } else if ((regs[i] == "" || i >= 1) && operation == "lw") {
