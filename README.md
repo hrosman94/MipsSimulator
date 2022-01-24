@@ -1,5 +1,5 @@
 This program allows the user to simulate what happens within a single-datapath
-processor in MIPS.
+processor in a MIPS ISA.
 
 To start the program, the user may add whatever values they would
 like to test to the MEM[] and PC_REGS[] arrays in the components.cpp file
@@ -13,12 +13,12 @@ For memory, the user must access it by entering numbers divisible by 4.
       lw and sw instructions should be written in the following format:
             lw/sw $r(register#), (number in mem)
 
-After the user has inputted the desired values in the registers and memory, the
+After the user has inputted the desired values in the memory and registers, the
 user can run the program. They will be asked to input their values, and
 registers in the same way they would in MIPS (exceptions detailed within this
 README). User can enter "stop" when they would like to stop inputting commands.
 
-If the inputs are valid, than the instructions get written to the "output.txt"
+If the inputs are valid, then the instructions get written to the "output.txt"
 file, with each operation entered. When the user indicates they are done
 inputting commands, the data will run through the code informing the user of
 where it currently is within the processor, and what it is doing. At the end,
@@ -44,7 +44,7 @@ and any jumps made in the output.txt file.
 
 NOTE:
 
-    Jumps may not exceed the size of the output file. For this
+    Jumps may not exceed the current size of the output file. For this
     reason, only backward jumps may be performed. Otherwise, the user is
     notified with the error: "JUMP NOT FOUND..."
 
