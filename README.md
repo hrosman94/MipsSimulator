@@ -49,10 +49,9 @@ NOTE:
     notified with the error: "JUMP NOT FOUND..."
 
     For the "mul" operation (contrary to MIPS's ACTUAL multiplication
-    operation "mult"), hi/lo need not be specified (the assignment instructions
-    specify the support of a "mul" operation, and doesn't say that a
-    hi/lo operation need be included) the user may enter it in the same way
-    they would many other ALU instructions:
+    operation "mult", done to differentiate that hi/lo need not be 
+    specified in this program, for simplicity) the user may enter it in the 
+    same way they would many other ALU instructions:
 
         mul $r(register # to hold result), $r(register # to multiply),
                                 $r(register # to multiply)
