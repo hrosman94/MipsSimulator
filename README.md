@@ -1,4 +1,4 @@
-lThis program allows the user to simulate what happens within a single-datapath
+This program allows the user to simulate what happens within a single-datapath
 processor in a MIPS ISA.
 
 To start the program, the user may add whatever values they would
