@@ -20,7 +20,7 @@ For memory, the user must access it by entering numbers divisible by 4.
 After the user has inputted the desired values in the memory and registers, the
 user can run the program. They will be asked to input their values, and
 registers in the same way they would in MIPS (exceptions detailed within this
-README). User can enter "stop" when they would like to stop inputting commands.
+readme). User can enter "stop" when they would like to stop inputting commands.
 
 If the inputs are valid, then the instructions get written to the "output.txt"
 file, with each operation entered. When the user indicates they are done
