@@ -1,6 +1,10 @@
 This program allows the user to simulate what happens within a single-datapath
 processor in a MIPS ISA.
 
+This readme informs the user how the program works. For a deeper analysis of 
+what is happening on an architectural level, refer to the pdf file located in 
+hrosman94.github.io.
+
 To start the program, the user may add whatever values they would
 like to test to the MEM[] and PC_REGS[] arrays in the components.cpp file
 (which simulate the memory and registers, respectively).
