@@ -62,4 +62,3 @@ NOTE:
 
     All other instructions, other than exceptions specified above,
     may be entered the exact way they would be in a MIPS environment.
-    //TEST
